@@ -6,8 +6,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class FirstTest {
     @Test
-    public void firstTest() {
-       System.setProperty("webdriver.chrome.driver", "C:\Program Files/ chromedriver");
+    public void myFirstTest() {
+       .setProperty("webdriver.chrome.driver", "C:\Program Files/ chromedriver");
         ChromeDriver driver = new ChromeDriver();
         driver.get("https://www.jomodo.de/");
     }
