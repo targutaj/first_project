@@ -6,13 +6,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class FirstTest {
     @Test
-    public void myFirstTest() {
-        System.setProperty("webdriver.chrome.driver", "C:/Program Files/chromedriver");
+    public void firstTest() {
+        System.setProperty("webdriver.chrome.driver", "C://Program Files/chrome driver");
         ChromeDriver driver = new ChromeDriver();
         driver.get("https://www.jomodo.de/");
-    }
-
-
+        }
 }
 
 
