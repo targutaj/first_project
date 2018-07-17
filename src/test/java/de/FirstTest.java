@@ -9,6 +9,7 @@ public class FirstTest {
         System.setProperty("webdriver.chrome.driver", "C:/Program Files/chromedriver.exe");
         ChromeDriver driver = new ChromeDriver();
         driver.get("https://www.idealo.de/");
+        driver.quit();
 
 
 
